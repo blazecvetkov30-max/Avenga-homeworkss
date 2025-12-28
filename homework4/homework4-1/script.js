@@ -27,4 +27,3 @@ function createStory() {
 
     console.log(story);
 }
-
