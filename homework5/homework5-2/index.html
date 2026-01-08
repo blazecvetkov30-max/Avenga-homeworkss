@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework 5-2</title>
 </head>
 <body>
-    
+    <h1>Book Reading Status</h1>
+    <label>Title:</label><br>
+    <input type="text" id="title"><br><br>
+
+    <label>Author:</label><br>
+    <input type="text" id="author"><br><br>
+
+    <label>Have you read this book?</label><br>
+    <select id="readingStatus">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+    </select><br><br>
+
+    <button onclick="showStatus()">Show Reading Status</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
 </body>
 </html>
