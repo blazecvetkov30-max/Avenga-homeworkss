@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>NexaNext – Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="app-header">
+  <div>NexaNext</div>
+  <div>
+    <button id="themeToggle" class="theme-toggle">🌙</button>
+    <button id="loginBtn">Login</button>
+    <button id="logoutBtn" class="hidden">Logout</button>
+  </div>
+</header>
+
+<main class="container">
+<div id="gallery" class="grid"></div>
+</main>
+
+<div id="modal" class="modal hidden">
+<img id="modalImg" />
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
